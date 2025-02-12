@@ -89,13 +89,66 @@ Untracked → Tracked: git add <file>
 Tracked → Staged: git add <file>
 Staged → Committed: git commit -m "message"
 
-
+![Stage in the terminal](images/stagePic.png`)
 
 ## Question 10
+To commit in Git with the message on the same line, use the -m flag followed by your commit message in quotes:
+
+**git commit -m "Your commit message here"**
+
+This command stages all currently staged changes and saves them with the provided message.
+
+
+
+
 ## Question 11
+| Command |	Purpose | Action |
+| --- | --- | --- |
+| git pull | Updates local branch with the latest changes from a remote repository	Fetches and merges remote changes into your current branch |
+| git push | Uploads local commits to the remote repository	Sends local commits to a remote branch |
+| git fetch | Retrieves updates from the remote repository without merging	Downloads new commits but doesn’t modify your working branch |
+
+- git fetch only downloads remote changes.
+- git pull downloads and merges remote changes.
+- git push uploads your local commits to the remote repository.
+
+
+
+
 ## Question 12
+![Information about remote in git](image/remote.png)
+
+
+
 ## Question 13
+
+git merge → Combines branches and keeps history (creates a merge commit).
+
+
+**git checkout main**
+
+
+**git merge feature-branch**
+
+git rebase → Moves commits from one branch on top of another (rewrites history, no merge commit).
+
+
+**git checkout feature-branch**
+
+
+**git rebase main**
+
+
+
 ## Question 14
+git checkout is a command used to switch between branches or restore files to a previous state.
+
+
+Alias for git checkout:
+The alias for git checkout is git switch (for switching branches) and git restore (for restoring files).
+
+
+
 ## Question 15
 ## Question 16
 ## Question 17
