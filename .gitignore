@@ -1,3 +1,5 @@
 trial.txt
 *.log
 /HAhhaa
+/workPls/*
+!/workPls/not.txt

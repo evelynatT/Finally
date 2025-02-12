@@ -54,11 +54,43 @@ In Git, you can ignore files by creating a ".gitignore file".
 
  This prevents Git from tracking specific files or directories, such as logs, temporary files, or sensitive credentials.
 
+![Ignore image proves](images/ignore1.png)
+![Ignore image proves](images/ignore2.png)
+![Ignore image proves](images/ignore3.png)
+![Ignore image proves](images/ignore4.png)
+
 
 
 ## Question 7
+**git log** is a command used to view the commit history of a Git repository.
+ It shows a chronological list of commits, including details such as commit hashes, author names, timestamps, and commit messages.
+
+![git log image proves](images/gitLog.png)
+
+
 ## Question 8
+**git add** is a command that stages changes in your working directory, preparing them to be committed. It does not save the changes permanently—that happens when you run git commit.
+
+Think of git add as marking files for commit. Without it, changes won't be included in the next commit.
+
+
+
+
 ## Question 9
+The staging area (also called the index) in Git is a temporary place where changes are stored before they are committed. It allows you to review and group changes before making a commit.
+
+Untracked files: Files that Git doesn’t yet know about.
+Tracked files: Files that Git is aware of, including staged and committed files.
+Staged files: Files that have been added to the staging area but not yet committed.
+
+
+
+Untracked → Tracked: git add <file>
+Tracked → Staged: git add <file>
+Staged → Committed: git commit -m "message"
+
+
+
 ## Question 10
 ## Question 11
 ## Question 12
