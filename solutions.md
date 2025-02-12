@@ -147,11 +147,40 @@ git checkout is a command used to switch between branches or restore files to a 
 Alias for git checkout:
 The alias for git checkout is git switch (for switching branches) and git restore (for restoring files).
 
+![Checkout and switch](images/checkout.png)
+
 
 
 ## Question 15
+Tags in Git are used to mark specific points in a project’s history, often for version releases like `v1.0`. There are two types of tags: **annotated tags**, which store metadata like the tagger’s name, date, and message, and **lightweight tags**, which are simple references to a commit without extra information. Annotated tags are preferred for official releases, while lightweight tags are used for temporary markers. You can create an annotated tag with `git tag -a v1.0 -m "Version 1.0 release"` or a lightweight tag with `git tag v1.0`. Tags help developers track important milestones in a repository.
+
+
+
 ## Question 16
+Git aliases are shortcuts that make it easier to run frequently used Git commands. Instead of typing long commands, you can create a custom alias to execute them quickly. These aliases are stored in Git’s configuration file and can be set globally or per repository.
+
+
+![aliases](images/aliases.png)
+
+
+
 ## Question 17
+Yes, you can rename a Git branch using the git branch -m command. This can be done for both the current branch and other branches in the repository.
+
+
+![aliases](images/branchName.png)
+
+
+
 ## Question 18
+`git pull` is a command that fetches changes from a remote repository and merges them into your current local branch. It is essentially a combination of two commands: `git fetch`, which downloads the latest changes from the remote repository, and `git merge`, which integrates those changes into your working branch. For example, running `git pull origin main` will retrieve the latest updates from the `main` branch on the remote repository named `origin` and merge them into your local `main` branch. This command ensures that your local branch stays up to date with the remote repository.
+
+
+
 ## Question 19
-## Question 20
+Yes you can
+
+![Checkout and switch](images/branch.png)
+
+git branch -d <branch-name> (safe delete) → This deletes the branch only if it has been merged into the current branch. If the branch contains unmerged changes, Git will prevent its deletion to avoid data loss.
+git branch -D <branch-name> (force delete) → This forcibly deletes the branch, even if it has unmerged changes, potentially leading to loss of work.
