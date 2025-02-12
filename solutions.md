@@ -15,11 +15,11 @@ The essence of git s a distributed version control system (DVCS) designed to han
 
 
 ## Question 3
-### -Distributed Version Control Systems (DVCS)
+- ### Distributed Version Control Systems (DVCS)
 1. Mercurial (Hg) Similar to Git, known for simplicity and performance.
 2. Bazaar Flexible and user-friendly, developed by Canonical (Ubuntu's parent company).
 3. Fossil Includes issue tracking and wiki features, used by SQLite.
-### -Centralized Version Control Systems (CVCS)
+- ### Centralized Version Control Systems (CVCS)
 1. Apache Subversion (SVN) A widely used, older version control system.
 2. Perforce (Helix Core) Used in enterprise environments, especially in gaming and large software projects.
 3. IBM Rational ClearCase Enterprise-grade, used for large-scale software development.
@@ -32,6 +32,7 @@ The git status command shows the current state of your working directory and sta
 
  It helps you see which files have been modified, staged, or remain untracked before committing changes.
 
+![Local Image](images/status.png/status.png "git status in terminal")
 
 
 
@@ -44,10 +45,14 @@ including all tracked files, and assigns a unique identifier (a commit hash) to 
 
 This allows you to track changes, collaborate with other developers, and revert to previous versions if needed.
 
+![Local Image](images/commit.png.png/status.png "git commit in terminal")
+
 
 
 ## Question 6
+In Git, you can ignore files by creating a ".gitignore file".
 
+ This prevents Git from tracking specific files or directories, such as logs, temporary files, or sensitive credentials.
 
 
 
