@@ -32,7 +32,7 @@ The git status command shows the current state of your working directory and sta
 
  It helps you see which files have been modified, staged, or remain untracked before committing changes.
 
-![Local Image](images/status.png/status.png "git status in terminal")
+![Local Image](images/status.png"git status in terminal")
 
 
 
@@ -45,7 +45,7 @@ including all tracked files, and assigns a unique identifier (a commit hash) to 
 
 This allows you to track changes, collaborate with other developers, and revert to previous versions if needed.
 
-![Local Image](images/commit.png.png/status.png "git commit in terminal")
+![Local Image](images/commit.png"git commit in terminal")
 
 
 
@@ -116,7 +116,7 @@ This command stages all currently staged changes and saves them with the provide
 
 
 ## Question 12
-![Information about remote in git](image/remote.png)
+![Information about remote in git](images/remote.png)
 
 
 
