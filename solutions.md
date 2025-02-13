@@ -89,7 +89,7 @@ Untracked → Tracked: git add <file>
 Tracked → Staged: git add <file>
 Staged → Committed: git commit -m "message"
 
-![Stage in the terminal](images/stagePic.png`)
+![Stage in the terminal](images/stagePic.png)
 
 ## Question 10
 To commit in Git with the message on the same line, use the -m flag followed by your commit message in quotes:
